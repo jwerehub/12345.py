@@ -1,0 +1,17 @@
+print("enter marks")
+a= int(input("enter 1st subject"))
+b= int(input("enter 2nd subject"))
+c= int(input("enter 3rd subject"))
+d= int(input("enter 4th subject"))
+e= int(input("enter 5th subject"))
+average=float((a+b+c+d+e)//5)
+if (average>=70 and average<=100):
+    print("A")
+if (average>=60 and average<=69):
+    print("B")
+if (average>=50and average<=59):
+    print("C")
+if (average>=40and average<=49):
+    print("D")
+if (average>=0and average<=39):
+    print("fail")
